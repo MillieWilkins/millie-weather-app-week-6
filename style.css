@@ -1,8 +1,123 @@
 h1 {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 900;
 }
+
 h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.temperature {
+  text-align: right;
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(239, 122, 19);
+  text-decoration: none;
+}
+
+.celsius-link {
+  display: inline;
+  text-align: right;
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(239, 122, 19);
+  text-decoration: none;
+}
+
+.celsius-link:hover {
+  font-weight: 900;
+  color: rgba(239, 122, 19, 0.5);
+  cursor: pointer;
+}
+
+.fahrenheit-link {
+  display: inline;
+  text-align: right;
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(239, 122, 19);
+  text-decoration: none;
+}
+
+.fahrenheit-link:hover {
+  font-weight: 900;
+  color: rgba(239, 122, 19, 0.5);
+  cursor: pointer;
+}
+
+p {
+  line-height: 10px;
+  font-size: 14px;
+}
+
+.top-section {
+  border-radius: 10px 10px 0 0;
+  border-color: rgb(239, 122, 19);
+  border-style: solid;
+  background-color: white;
+  color: rgb(239, 122, 19);
+  padding: 50px;
+  margin: 50px 0 0 0;
+}
+
+.today-icon {
+  width: 80px;
+  display: block;
+}
+
+.bottom-section {
+  border-radius: 0 0 10px 10px;
+  border-style: solid;
+  border-color: rgb(239, 122, 19);
+  border-top: none;
+  background-color: rgba(239, 122, 19, 0.2);
+  color: rgb(239, 122, 19);
+  padding: 50px 50px 40px 50px;
+  margin: 0px auto;
   text-align: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.forecast-icons {
+  width: 30px;
+  padding-bottom: 30px;
+}
+
+.forecast-temp {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 0px;
+}
+
+.icon-credit {
+  text-align: right;
+  font-size: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn-current {
+  color: white;
+  background-color: rgb(239, 122, 19);
+  border-radius: 5px;
+  border-color: rgb(239, 122, 19);
+  padding: 10px;
+  border-style: solid;
+}
+
+.btn-current:hover {
+  background-color: white;
+  color: rgb(239, 122, 19);
+  border-radius: 5px;
+  border-color: rgb(239, 122, 19);
+}
+
+.btn-outline-secondary {
+  color: rgb(239, 122, 19);
+  border-color: rgb(239, 122, 19);
+}
+.btn-outline-secondary:hover {
+  background-color: rgb(239, 122, 19);
+  border-color: rgb(239, 122, 19);
 }
