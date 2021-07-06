@@ -1,0 +1,29 @@
+<div class="bottom-section">
+  <div class="row">
+    <div class="col">
+      <img class="forecast-icons" src="svg/002-rainy-orange.svg" alt="rain" />
+      <p class="forecast-temp">10º</p>
+      <p>MON</p>
+    </div>
+    <div class="col">
+      <img class="forecast-icons" src="svg/014-windy-orange.svg" alt="windy" />
+      <p class="forecast-temp">13º</p>
+      <p>TUE</p>
+    </div>
+    <div class="col">
+      <img class="forecast-icons" src="svg/005-sun-orange.svg" alt="sun" />
+      <p class="forecast-temp">8º</p>
+      <p>WED</p>
+    </div>
+    <div class="col">
+      <img class="forecast-icons" src="svg/005-sun-orange.svg" alt="sun" />
+      <p class="forecast-temp">11º</p>
+      <p>THU</p>
+    </div>
+    <div class="col">
+      <img class="forecast-icons" src="svg/005-sun-orange.svg" alt="sun" />
+      <p class="forecast-temp">16º</p>
+      <p>FRI</p>
+    </div>
+  </div>
+</div>

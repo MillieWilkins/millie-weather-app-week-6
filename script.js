@@ -34,8 +34,18 @@ function displayWeatherCondition(response) {
   document.querySelector("#temperature-now").innerHTML = Math.round(
     response.data.main.temp
   );
+  document.querySelector(
+    "#icon-today"
+  ).innerHTML = `<img src="http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png" />`;
+
   document.querySelector("#condition").innerHTML =
     response.data.weather[0].main;
+  document.querySelector("#wind-speed").innerHTML = Math.round(
+    response.data.wind.speed
+  );
+  document.querySelector("#humidity").innerHTML = Math.round(
+    response.data.main.humidity
+  );
 }
 
 function searchCity(city) {
@@ -69,3 +79,21 @@ let currentLocationButton = document.querySelector("#current-location-button");
 currentLocationButton.addEventListener("click", getCurrentPosition);
 
 searchCity("London");
+
+function convertToF(event) {
+  event.preventDefault();
+  let temperatureToday = document.querySelector("#temperature-now");
+  temperatureToday.innerHTML = 10;
+}
+
+function convertToC(event) {
+  event.preventDefault();
+  let temperatureToday = document.querySelector("#temperature-now");
+  temperatureToday.innerHTML = 20;
+}
+
+let fahrenheitLink = document.querySelector("#fahrenheit-link");
+fahrenheitLink.addEventListener("click", convertToF);
+
+let celsiusLink = document.querySelector("#celsius-link");
+celsiusLink.addEventListener("click", convertToC);
