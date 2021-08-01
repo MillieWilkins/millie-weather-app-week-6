@@ -13,11 +13,11 @@ h3 {
 
 .temperature {
   text-align: right;
-  font-size: 60px;
+  font-size: 80px;
   font-weight: 700;
   color: rgb(239, 122, 19);
   vertical-align: text-top;
-  line-height: 50px;
+  line-height: 60px;
 }
 
 .celsius-link {
@@ -27,27 +27,6 @@ h3 {
   font-weight: 700;
   color: rgb(239, 122, 19);
   text-decoration: none;
-}
-
-.celsius-link:hover {
-  font-weight: 900;
-  color: rgba(239, 122, 19, 0.5);
-  cursor: pointer;
-}
-
-.fahrenheit-link {
-  display: inline;
-  text-align: right;
-  font-size: 15px;
-  font-weight: 700;
-  color: rgb(239, 122, 19);
-  text-decoration: none;
-}
-
-.fahrenheit-link:hover {
-  font-weight: 900;
-  color: rgba(239, 122, 19, 0.5);
-  cursor: pointer;
 }
 
 p {
@@ -67,8 +46,12 @@ p {
 }
 
 .today-icon {
-  width: 80px;
+  width: 90px;
   display: block;
+}
+
+.condition {
+  font-weight: 700;
 }
 
 .future-forecast {

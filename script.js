@@ -133,22 +133,4 @@ searchForm.addEventListener("click", handleSearch);
 let currentLocationButton = document.querySelector("#current-location-button");
 currentLocationButton.addEventListener("click", getCurrentPosition);
 
-function convertToF(event) {
-  event.preventDefault();
-  let temperatureToday = document.querySelector("#temperature-now");
-  temperatureToday.innerHTML = 10;
-}
-
-function convertToC(event) {
-  event.preventDefault();
-  let temperatureToday = document.querySelector("#temperature-now");
-  temperatureToday.innerHTML = 20;
-}
-
-let fahrenheitLink = document.querySelector("#fahrenheit-link");
-fahrenheitLink.addEventListener("click", convertToF);
-
-let celsiusLink = document.querySelector("#celsius-link");
-celsiusLink.addEventListener("click", convertToC);
-
 searchCity("London");
